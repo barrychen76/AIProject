@@ -14,7 +14,7 @@ class Config:
     
     # 数据增强配置
     JITTER_RANGE = 0.03    # 随机浮动范围±3%
-    JITTER_COPIES = 20     # 每个样本生成的副本数
+    JITTER_COPIES = 20     # 每个样本生成的副本数default=20
     
     # 文件路径模板
     @staticmethod
